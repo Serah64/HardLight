@@ -114,12 +114,15 @@
     shape:
       - 0, 0, 3, 2
       - 0, 2, 5, 4
-  # - type: MouthStorage
-    # mouthProto: CheekStorage
-    # openStorageAction: ActionOpenMouthStorage
-    # spitDamageThreshold: 3
-  # - type: CrawlUnderObjects
-    # actionProto: ActionToggleSneakMode
+  - type: MouthStorage
+    mouthProto: CheekStorage
+    openStorageAction: ActionOpenMouthStorage
+    spitDamageThreshold: 3
+  - type: CrawlUnderObjects
+    actionProto: ActionToggleSneakMode
+  - type: DrawDepthVisualizer
+    key: enum.SneakingVisuals.Sneaking
+    depth: SmallMobs
 
 - type: entity
   save: false
